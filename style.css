@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+body{
+	display: flex;
+	height:97vh;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("loveImg.jpg");
+    cursor: default;
+}
+#main-div{
+	width: 50%;
+	height: 310px;
+	background: white;
+    
+}
+.header{
+	text-align: center;
+	align-items: center;
+	height: 38px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 1px;
+	background-color: #FFB6C1;
+	font-size: 30px;
+	color:black;
+}
+.content{
+	align-items: center;
+	text-align: center;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 1px;
+	height: 229px;
+	border: 1px solid white;
+}
+.footer{
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	background-color: #efefef;
+	height: 37px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.user-input{
+	margin-top: 41px;
+}
+.user-button{
+	margin-top: 29px;
+}
+#name1,#name2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+    cursor: text;
+}
+.plus{
+	margin: 0px 10px;
+	font-size: 25px;
+}
+button{
+	background-color: #3DDB87;
+	border: none;
+	padding: 10px 100px;
+	font-weight: 800;
+	font-size: 15px;
+}
+.result{
+	margin-top: 25px;
+}
+#lovedata{
+	padding: 10px 0px;
+	text-align: center;
+}

@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="style.css">
+
+<body>
+	<div id="main-div">
+		<div class="header">LOVE CALCULATOR</div>
+		<div class="content">
+			<div class="user-input"><input type="text" id="name1" placeholder="YOUR NAME"><span class="plus">+</span><input type="text" id="name2" placeholder="LOVE NAME"></div>
+			<div class="user-button"><button onclick="myLove()">CLICK</button></div>
+			<div class="result"><input type="text" name="" id="lovedata" disabled placeholder="LOVE PERCENTAGE" style="cursor: not-allowed;"></div>
+		</div>
+		<div class="footer">GOD BLESS YOUR RELATIONSHIP</div>
+	</div>
+	<script>
+		function myLove(){
+			var name = document.getElementById('name1').value;
+            var lname = document.getElementById('name2').value;
+          if(name == ""){
+          	alert("Please Enter Your Name");
+          }
+          else if(lname == ""){
+          	alert("Please Enter Your Love Name");
+          }
+          else if(name.length <= 2){
+          	alert("minimum name length is 3");
+          }
+          else if(lname.length <= 2){
+          	alert("minimum love length is 3");
+          }else{
+
+			var a = Math.floor(Math.random()*100);
+			document.getElementById('lovedata').value = a + "%";
+				}
+		}
+	</script>
+</body>
